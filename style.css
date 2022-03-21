@@ -23,3 +23,20 @@ a {
     text-decoration: none;
     font-size: 20px;
 }
+
+.container{
+    margin: auto;
+   text-align: center;
+   height: 500px;
+   width: 500px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.start-quiz-button{
+    
+    
+}
