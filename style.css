@@ -1,3 +1,13 @@
 body {
     font-family: cursive;  
 }
+
+#time{
+    color: rgb(255, 30, 0);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
