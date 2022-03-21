@@ -23,16 +23,31 @@ a {
     text-decoration: none;
     font-size: 20px;
 }
+a:hover {
+    color: blueviolet;
+}
 
 .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    max-width: 600px;;
     margin: auto;
-   text-align: center;
-   height: 500px;
-   width: 500px;
+    /* margin: auto;
+    text-align: center;
+    height: 500px;
+    width: 500px; */
     
 }
 
 h1 {
+    text-align: center;
+
+}
+
+.description{
     text-align: center;
 }
 
