@@ -5,11 +5,11 @@ body {
 header{
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 p.timer{
-    font-size: 20px;
+    /* font-size: 20px; */
    
 
 }
@@ -21,7 +21,6 @@ p.timer{
 a {
     color: rgb(0, 60, 255);
     text-decoration: none;
-    font-size: 20px;
 }
 a:hover {
     color: blueviolet;
@@ -58,7 +57,9 @@ h1 {
 
 .start-quiz-button{
     font-size: 30px;
-    font-weight: bold;
-    
-    
+    font-weight: bold;  
+}
+
+.start-quiz-button:hover{
+    background-color: rgb(0, 60, 255);
 }
