@@ -57,7 +57,8 @@ h1 {
 
 .start-quiz-button{
     font-size: 30px;
-    font-weight: bold;  
+    background-color: black;
+    color: white; 
 }
 
 .start-quiz-button:hover{
