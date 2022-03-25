@@ -55,12 +55,12 @@ h1 {
     font-size: 30px;
 }
 
-.start-quiz-button{
+button{
     font-size: 30px;
     background-color: black;
     color: white; 
 }
 
-.start-quiz-button:hover{
+button:hover{
     background-color: rgb(0, 60, 255);
 }
