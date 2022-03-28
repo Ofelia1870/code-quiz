@@ -8,15 +8,11 @@ header{
     font-size: 22px;
 }
 
-p.timer{
-    /* font-size: 20px; */
-   
 
-}
-
-#time{
+/* #countdown{
     color: rgb(255, 30, 0);
-}
+    font-size: 22px;
+} */
 
 a {
     color: rgb(0, 60, 255);
