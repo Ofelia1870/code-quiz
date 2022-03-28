@@ -4,10 +4,13 @@ var startButton = document.querySelector(".start-quiz-button");
 
 // console.log(startButton);
 
-    
+    function startQuiz() {
+         document.querySelector(".container").innerHTML = "Question 1";
+    }
 
     startButton.addEventListener("click", function(){
         var secondsLeft = 90;
+        
 
         var timeInterval = setInterval(function () {
         
@@ -17,6 +20,8 @@ var startButton = document.querySelector(".start-quiz-button");
     
           clearInterval(timeInterval);
         }, 1000);
+
+    startButton.addEventListener("click", startQuiz)
         
     });
            
