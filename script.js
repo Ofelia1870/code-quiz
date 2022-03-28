@@ -15,10 +15,15 @@ var codeQuestion =  [
 
 // console.log(startButton);
 
-    function startQuiz() {
-        document.querySelector(".container").innerHTML =  codeQuestion;
-        //  document.querySelector(".container").innerHTML = h3El;
-        //  h3El.textContent = "Question 1";
+    // function startQuiz() {
+    //     document.querySelector(".container").innerHTML =  codeQuestion;
+    // }
+    document.querySelector("#quiz-section").style.display = "none";
+
+    document.querySelector(".start-quiz-button").onclick = function() {
+        document.querySelector("#quiz-section").style.display = "block";
+        document.querySelector(".container").style.display = "none";
+
     }
 
     startButton.addEventListener("click", function(){
