@@ -70,5 +70,10 @@ button:hover {
 }
 
 .options button {
-    justify-content: center;
+    display: block;
+    
+}
+
+#answers {
+    margin: 10px;
 }
