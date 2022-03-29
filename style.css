@@ -50,6 +50,7 @@ button {
     font-size: 30px;
     background-color: black;
     color: white; 
+    cursor: pointer;
 }
 
 button:hover {
@@ -66,4 +67,8 @@ button:hover {
     margin-top: 60px;
     font-weight: 50;
     font-style: italic;
+}
+
+.options button {
+    justify-content: center;
 }
