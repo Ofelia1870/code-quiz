@@ -9,7 +9,7 @@ var startButton = document.querySelector(".start-quiz-button");
     //     document.querySelector("#quiz-section").style.display = "flex";
     //     document.querySelector(".container").style.display = "none";
 
-    }
+    // }
 
     startButton.addEventListener("click", function(){
         var secondsLeft = 90;
