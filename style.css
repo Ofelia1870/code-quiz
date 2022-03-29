@@ -22,7 +22,7 @@ a:hover {
     color: blueviolet;
 }
 
-.container{
+.container-1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,24 +40,24 @@ h1 {
 
 }
 
-.description{
+.description {
     text-align: center;
     font-style: italic;
     font-size: 30px;
 }
 
-button{
+button {
     font-size: 30px;
     background-color: black;
     color: white; 
 }
 
-button:hover{
+button:hover {
     background-color: rgb(0, 60, 255);
 }
 
-.hide{
-    display: flex;
+/* .hide {
+    display: flex; */
     /* flex-wrap: wrap; */
 
 }
